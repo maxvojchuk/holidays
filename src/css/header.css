@@ -1,0 +1,23 @@
+.header {
+  position: relative;
+}
+
+.heder__container {
+  position: absolute;
+  width: 185px;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container {
+  display: flex;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+
+@media (max-width: 767px) {
+  .authorization {
+    margin-bottom: 110px;
+  }
+}
